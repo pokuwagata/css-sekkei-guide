@@ -1,0 +1,30 @@
+@import "./reset.css";
+@import "./base.css";
+
+.header {
+  padding-top: 20px;
+  border-bottom: 1px solid #ddd;
+}
+.header__inner {
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.footer {
+  padding: 20px 0;
+  background-color: #222;
+}
+.footer-border-top-gray {
+  border-top: 1px solid #777;
+}
+.footer__inner {
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.footer-copyright {
+  display: block;
+  color: #ddd;
+  font-size: 12px;
+  text-align: center;
+}
