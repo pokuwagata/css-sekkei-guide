@@ -10,6 +10,31 @@
   padding: 0 15px;
   margin: 0 auto;
 }
+
+.content {
+  max-width: 1230px;
+  padding: 60px 15px;
+  margin: 0 auto;
+}
+
+.content-has-column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content__main {
+  flex: 1;
+  margin-right: 3.25203%;
+}
+
+.content__side {
+  flex: 0 0 260px;
+}
+
+.background-color-base {
+  background-color: #efefef;
+}
+
 .footer {
   padding: 20px 0;
   background-color: #222;
