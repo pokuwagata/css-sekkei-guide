@@ -302,3 +302,31 @@
 .card__text {
   color: #777;
 }
+
+.card__badge {
+  position: relative;
+}
+
+.card__badge::after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-width: 3.75rem 3.75rem 0 0;
+  border-style: solid;
+  border-color: #e25c00 transparent transparent transparent;
+}
+
+.card__badge-text {
+  position: absolute;
+  z-index: 2;
+  top: .5rem;
+  left: .3125rem;
+  color: #fff;
+  font-size: .875rem;
+  font-weight: bold;
+  transform: rotate(-45deg);
+}
