@@ -4,3 +4,4 @@
 - [HTML5 コンテンツモデル ガイド](https://webgoto.net/html5/)
 - [CSS 三角形作成ツール](http://apps.eky.hk/css-triangle-generator/ja)
 - [CSS だけで三角形を作ろう！その 1：border プロパティの仕組みをマスター](https://www.granfairs.com/blog/staff/make-triangle-with-css)
+- [Markup Validation Service](https://validator.w3.org/)
